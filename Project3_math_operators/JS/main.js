@@ -1,7 +1,6 @@
 function addition_Function()    {
-    var sum = 8 + 3; //defining the function addition
-    document.getElementById("Math");
-    innerHTML = "The sum of  " + 8 + 3 + sum; //putting the value of the variable into the html element 
+    var addition = 8 + 3; //defining the function addition
+    document.getElementById("Math").innerHTML = "8 + 3 = " + addition //putting the value of the variable into the html element 
 }
 
 function subtraction_Function() { //defining the function subtractrion
@@ -11,12 +10,12 @@ function subtraction_Function() { //defining the function subtractrion
 
 function multiplication_Function()   { //defining the function muliplication
     var multiplication = 5 * 4; //defining the variable and giving it a number value
-    document.getElementById("Math").innerHTML = "5 * 4 = " + simple_Math; //putting the value of the variable into the html element 
+    document.getElementById("Math").innerHTML = "5 * 4 = " + multiplication; //putting the value of the variable into the html element 
 }
 
 function division_Function()    { //defining the function division
     var division = 67 / 8; //defining the variable and giving it a number value
-    document.getElementById("Math").innerHTML = "67 / 8 = " +simple_Math; //putting the value of the variable into the html element 
+    document.getElementById("Math").innerHTML = "67 / 8 = " + division; //putting the value of the variable into the html element 
 }
 
 function more_Math()    { //defining the function more Math
