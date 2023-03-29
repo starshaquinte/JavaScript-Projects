@@ -11,16 +11,16 @@ function full_sentence()    { //wrote function utilizing the concat() method
 function slice_Method() {   //wrote function utilizing the slice() method 
     var Sentence = "I love to eat tacos on Tuesday.";
     var section = Sentence.slice(14,18);
-    document.getElementById("Slice").innerHTML = Section;
+    document.getElementById("slice").innerHTML = section;
 }
 
-function toString() {   //wrote function utilizing the toString() method 
+function toString_Method() {   //wrote function utilizing the toString() method 
     x = 25;
     document.getElementById("toString").innerHTML = x.toString();
     (25).toString();
 }
 
-function toPrecision()  {   //wrote function utilizing the toPrecision method 
+function toPrecision_Method()  {   //wrote function utilizing the toPrecision method 
     x = 6.885;
     document.getElementById("toPrecision").innerHTML = x.toPrecision(2);
 }
