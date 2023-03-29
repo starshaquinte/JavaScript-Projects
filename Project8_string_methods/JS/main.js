@@ -1,11 +1,11 @@
-function full_sentence()    { //wrote function utilizing the concat() method 
+function whole_sentence()    { //wrote function utilizing the concat() method 
     var part_1 = " I love ";
     var part_2 = " the colors ";
     var part_3 = " blue ";
     var part_4 = " purple ";
     var part_5 = " and green. ";
     var whole_sentence = part_1.concat(part_2, part_3, part_4, part_5);
-    document.getElementById("Concatente").innerHTML = whole_sentence;
+    document.getElementById("Concatenate").innerHTML = whole_sentence;
 }
 
 function slice_Method() {   //wrote function utilizing the slice() method 
