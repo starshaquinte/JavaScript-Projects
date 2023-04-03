@@ -101,7 +101,7 @@ keys.addEventListener('click', (event) => {
         return;
     }
     if (target.classList.contains('operator'))   {
-        Handle_Operator(target).value;
+        Handle_Operator(target.value);
         Update_Display();
         return
     }
