@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+        <meta charset="utf">
+        <title>Vote for your favorite M&M's</title>
+        <link rel="stylesheet" href="./CSS/one_page_website.css">
+		<script src = "JS/one_page_website.js" defer></script>
+    </head>
+	<h1>M&M's are yummy</h1>
+		 <!--NAV-->
+	     <div>
+		<nav>
+		    <ul>
+			<a href="#Home"><li>HOME</li></a>
+			<a href="#Favorite" ><li>FAVORITE</li></a>
+			<a href="#Factory"><li>FACTORY</li></a>
+		    </ul>
+		</nav>
+	     </div>
+	     <!--END NAV-->
+	<body id="Home">
+	
+	<div class="row">
+		<div class="column">
+			<img src="mnms.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width: 250px; height: 250px">
+		</div>
+		<div class="column">
+			<img src="mnm3.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width: 250px; height: 250px">
+		</div>
+		<div class="column">
+			<img src="images.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width: 250px; height: 250px">
+		</div>
+		<div class="column">
+			<img src="candymnm.png" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width: 250px; height: 250px">
+		</div>
+	</div>
+
+	<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+		<div class="mySlides">
+			<div class="numbertext">1 / 4</div>
+			<img src="mnms.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">2 / 4</div>
+			<img src="mnm3.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">3/ 4</div>
+			<img src="images.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">4 / 4</div>
+			<img src="candymnm.png" style="width:100%">
+		</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Caption text -->
+  <div class="caption-container">
+	<p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail image controls -->
+  		<div class="column">
+			<img class="demo" src="mnms.jpg" onclick="currentSlide(1)" alt="Candy" style="width:25%">
+  		</div>
+
+  		<div class="column">
+			<img class="demo" src="mnm3.jpg" onclick="currentSlide(2)" alt="chocolate" style="width:25%">
+  		</div>
+
+  		<div class="column">
+			<img class="demo" src="images.jpg" onclick="currentSlide(3)" alt="peanut" style="width:25%">
+  		</div>
+
+  		<div class="column">
+			<img class="demo" src="candymnm.png" onclick="currentSlide(4)" alt="All the M&Ms" style="width:25%">
+  		</div>
+	</div>
+</div>
+
+
+
+
+	  
+	
+	<p>What does the M&M on the candy stand for? Answer. The letters stand for the creators of the candy, Forrest E. Mars and Bruce E. Murrie, who first produced the candy for the U.S. military.</p>
+	
+
+<h2>Pick your favorite M&M's</h2>
+
+<form action="/action_page.php" method="get" id="Favorite">
+  <input type="radio" id="chocolate" name="fav_candy" value="chocolate">
+  <label for="chocolate">chocolate</label><br>
+  <input type="radio" id="peanut" name="fav_candy" value="peanut">
+  <label for="peanut">peanut</label><br>
+  <input type="radio" id="other" name="fav_candy" value="other">
+  <label for="other">other</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+<p id="Factory">&nbsp;</p>
+</body>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/qkJQzqVgEfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+<footer>
+  <p>Author: Starsha<br>
+  <a href="mailto:mz.starsha@mail.com">mz.starsha@mail.com</a></p>
+</footer>
