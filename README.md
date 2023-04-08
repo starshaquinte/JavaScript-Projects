@@ -4,7 +4,8 @@
 
 <h3>Projects<h3>
   
-  <a href="https://github.com/starshaquinte/JavaScript-Projects/tree/main/TicTacToe">TicTacToe Game</a>
-  <a href="
+  <ul>
+  <li><a href="https://github.com/starshaquinte/JavaScript-Projects/tree/main/TicTacToe">TicTacToe Game</a><li>
+  <a href="https://github.com/starshaquinte/JavaScript-Projects/tree/main/Calculator%20Assignment">Calculator</a>
   
   
